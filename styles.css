@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #333;
+}
+
+.clock-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+.date-time {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#date {
+    margin-bottom: 10px;
+}
+
+#time {
+    color: #555;
+}
+
+#format-toggle {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#timezone-selector {
+    font-size: 16px;
+    padding: 10px;
+}
